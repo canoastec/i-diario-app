@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.ionicframework.appoffline153013',
+  appId: 'br.gov.rs.canoastec.idiario',
   appName: 'Canoastec Diário',
   webDir: 'www',
   server: {
