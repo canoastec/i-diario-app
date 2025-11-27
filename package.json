@@ -1,7 +1,7 @@
 {
   "name": "i-diario",
-  "version": "1.2.9",
-  "author": "Canoastec",
+  "version": "1.2.19",
+  "author": "Portábilis",
   "homepage": "https://portabilis.com.br",
   "scripts": {
     "ng": "ng",
