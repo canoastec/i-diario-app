@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.ionicframework.appoffline153013',
-  appName: 'Portábilis Diário',
+  appId: 'br.gov.rs.canoastec.idiario',
+  appName: 'Canoastec Diário',
   webDir: 'www',
   server: {
     androidScheme: 'https',
@@ -13,7 +13,7 @@ const config: CapacitorConfig = {
       hostname: 'localhost',
       AndroidInsecureFileModeEnabled: 'true',
       'android-minSdkVersion': '22',
-      'android-targetSdkVersion': '34',
+      'android-targetSdkVersion': '35',
       BackupWebStorage: 'none',
       SplashMaintainAspectRatio: 'true',
       FadeSplashScreenDuration: '300',
