@@ -79,6 +79,10 @@ export class SignInPage implements OnInit {
   getCustomers() {
     this.customersService.getCustomers().subscribe((data: Customer[]) => {
       this.cities = data;
+      if (this.cities.length === 1) {
+        this.selectedCity = this.cities[0];
+        this.updateSupportUrl();
+      }
       this.cdr.detectChanges();
     });
   }
